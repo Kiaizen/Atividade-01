@@ -18,3 +18,4 @@ VALUES('Caderno', 'Madeira', true);
 insert into objetos(nome , tipo_objeto, funciona)
 VALUES('Borracha', 'Plástico', true);
 
+update objetos set tipo_objeto = "Látex" where id = 4;
