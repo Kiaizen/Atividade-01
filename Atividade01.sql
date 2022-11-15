@@ -19,3 +19,5 @@ insert into objetos(nome , tipo_objeto, funciona)
 VALUES('Borracha', 'Plástico', true);
 
 update objetos set tipo_objeto = "Látex" where id = 4;
+
+SELECT * FROM `objetos` WHERE tipo_objeto = 'Madeira'
