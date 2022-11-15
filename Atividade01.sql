@@ -21,3 +21,5 @@ VALUES('Borracha', 'Plástico', true);
 update objetos set tipo_objeto = "Látex" where id = 4;
 
 SELECT * FROM `objetos` WHERE tipo_objeto = 'Madeira'
+
+SELECT COUNT(*) FROM `objetos`;
