@@ -15,3 +15,6 @@ VALUES('Caneta', 'Plástico', false);
 insert into objetos(nome , tipo_objeto, funciona)
 VALUES('Caderno', 'Madeira', true);
 
+insert into objetos(nome , tipo_objeto, funciona)
+VALUES('Borracha', 'Plástico', true);
+
